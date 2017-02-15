@@ -1,0 +1,179 @@
+﻿/* Elements principaux de la page */
+
+body
+{
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+font-size: small;
+width: 100%;
+margin: 0;
+background-color: white;
+}
+
+header
+{
+width: 100%;
+background-color: black;
+}
+
+header a
+{
+color: white;
+text-decoration: none;
+}
+
+header a:hover
+{
+color: #ceb16d; /* beige */
+solid: #ceb16d; /* beige */
+text-decoration: none;
+}
+
+#codes
+{
+color: #e14408; /* orange */
+}
+
+/* Corps */
+
+article
+{
+display: inline-block;
+text-align: justify;
+color: #6d563d; /* marron */
+width: 990px;
+margin-right: 15px;
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+vertical-align: top;
+}
+
+#code, #aside
+{
+text-align: justify;
+display: inline-block;
+vertical-align: top;
+}
+
+#code
+{
+width: 65%;
+padding-right: 125px;
+}
+
+#code a
+{
+color: #a17e2d; /* beige foncé */
+text-decoration: none;
+}
+
+#code a:hover
+{
+color: #e14408; /* orange */
+solid: #e14408; /* orange */
+text-decoration: underline;
+}
+
+#backtotop a
+{
+color: #a17e2d; /* beige foncé */
+text-decoration: none;
+}
+
+#backtotop a:hover
+{
+color: #e14408; /* orange */
+solid: #e14408; /* orange */
+text-decoration: none;
+}
+
+h1
+{
+font-size: medium;
+font-weight: bold;
+color: #e14408; /* orange */
+text-align: left;
+}
+
+#aside
+{
+width: 20%;
+border-left: 1px dotted #e14408; /* orange */
+padding-left: 15px;
+text-align: left;
+margin-top: 20px;
+}
+
+#aside a
+{
+color: #6d563d; /* marron */
+text-decoration: none;
+}
+
+#aside a:hover
+{
+color: #e14408; /* orange */
+solid: #e14408; /* orange */
+text-decoration: none;
+}
+
+h2
+{
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+font-size: medium;
+margin: 0px;
+color: #a17e2d; /* beige foncé */
+}
+
+/* Footer */
+
+#copyright, #address, #phone, #email
+{
+font-size: 0.9em;
+text-align: justify;
+display: inline-block;
+padding-bottom: 10px;
+margin-left: 5px;
+}
+
+#space
+{
+border-top: 1px dotted #e14408; /* orange */
+border-bottom: none;
+border-right: none;
+border-left: none;
+padding-top: 15px;
+}
+
+#copyright
+{
+width: 15%;
+}
+
+#address
+{
+width: 49%;
+}
+
+#phone
+{
+width: 14%;
+}
+
+#email
+{
+width: 16%;
+}
+
+footer a
+{
+text-decoration: none;
+color: black;
+}
+
+footer a:hover
+{
+color: #e14408; /* orange */
+solid: #e14408; /* orange */
+text-decoration: underline;
+}
